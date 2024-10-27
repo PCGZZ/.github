@@ -6,17 +6,38 @@ At Virtual Adults, our mission is to empower psychology students by providing a 
 
 ## About the Platform
 
-Virtual Adults is an educational tool designed for psychology programs to aid in experiential learning. The platform allows students to converse with AI-simulated virtual adults, each embodying various mental health conditions, providing them with a rich, hands-on experience. Educators can create assignments, design custom scenarios, monitor student interactions, and evaluate performance based on realistic transcripts and reports.
+### 1. Purpose
+The Virtual Adult Psychology Training Platform is a web application developed to enhance psychology students’ counseling skills by offering interactive, simulated experiences. Through AI-powered virtual adults, the platform provides a safe and controlled environment where students can practice therapeutic and counseling techniques. Educators create, configure, and personalise virtual adults using relevant scenarios, photos, and behavioral patterns, helping students gain practical, hands-on training.
 
-### Key Features
+ 
 
-- **AI-Driven Simulations**: AI-generated responses that reflect real-world scenarios.
-- **Role-Based Functionality**: Separate access levels for students, educators, and administrators.
-- **Assignment Creation**: Customisable assignments with scenario uploads (TXT, PDF, DOC, DOCX formats).
-- **Student Performance Tracking**: Detailed chat transcripts and evaluation tools.
-- **Secure Authentication**: Auth0 and JWT-based user authentication for secure access.
+### 2. Context of Use
+The platform is designed for educational settings, such as university psychology courses and training programs, where educators create realistic virtual adult scenarios for students to practice counseling. AI-powered responses (e.g., Chat GPT 4.0, 4.0 Mini) create an interactive, lifelike experience that mirrors real counseling sessions. 
+Educators can also assess students’ counseling performance through detailed transcripts and summary reports of student interactions, helping them provide targeted feedback and track progress effectively.
 
-### Technology Stack
+### 3. Key Features
+
+- **Assignment Creation and Configuration**: Educators create assignments, uploading names, scenarios, photos, and narrative details to form distinct virtual adult profiles.
+- **AI Model Selection**: Educators select AI models for each virtual adult based on budgetary needs, choosing from various models like Chat GPT 4.0 or 4.0 Mini.
+- **Interaction Modes**: Educators can define if interactions are verbal or text-based, aligning with different pedagogical needs.
+- **Student Transcripts and Summaries**: Educators can access detailed records of student sessions with virtual adults, including a summary for easy review and feedback provision.
+- **Feedback Loop**: Through transcript reviews, educators assess student interactions, offering personalized guidance based on conversation analysis.
+- **Student Access Control**: Only verified students listed in the admin-uploaded CSV file are granted access, ensuring controlled and secure use of the platform.
+
+### 4. Target Audience
+- Primary Users: Psychology Students
+
+  - Psychology students, particularly those in clinical, counseling, or therapeutic training programs, use this platform to engage with virtual adults in realistic role-play scenarios.
+
+  - Students practice assessments, diagnostic techniques, and counseling methods in a non-judgmental environment, developing competencies for real-world interactions.
+
+- Secondary Users: Psychology Educators
+
+  - Educators and trainers in psychology classes serve as administrators of the platform, creating custom assignments, uploading scenario data, and personalizing each virtual adult.
+
+  - Educators assess student performance through transcript records, helping track skill development and providing feedback based on the interactions.
+
+### 5. Technology Stack
 
 - **Frontend**: React.js
 - **Backend**: Express.js, Node.js
