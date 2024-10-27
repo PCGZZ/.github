@@ -55,7 +55,7 @@ Explore our live platform here: [Virtual Adults](https://pcgzz-frontend.vercel.a
 
 This project is organized into two main repositories:
 
-- **Frontend Repository**: [Virtual Adults - Frontend](https://github.com/PCGZZ/PCGZZ-backend)
+- **Frontend Repository**: [Virtual Adults - Frontend](https://github.com/PCGZZ/PCGZZ-frontend)
 - **Backend Repository**: [Virtual Adults - Backend](https://github.com/PCGZZ/PCGZZ-backend)
 
 Each repository has its own setup, configuration, and contribution guidelines, detailed below.
